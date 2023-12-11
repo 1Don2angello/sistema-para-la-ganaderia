@@ -48,10 +48,10 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = '';
-$db['default']['username'] = '';
+$db['default']['hostname'] = 'localhost'; // o 'localhost'
+$db['default']['username'] = 'root'; // usuario predeterminado de XAMPP
 $db['default']['password'] = '';
-$db['default']['database'] = '';
+$db['default']['database'] = 'wakeupict_live_stock';
 $db['default']['dbdriver'] = 'mysqli';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
