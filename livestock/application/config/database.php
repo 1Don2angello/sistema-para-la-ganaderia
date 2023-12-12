@@ -48,7 +48,7 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'localhost'; // o 'localhost'
+$db['default']['hostname'] = '127.0.0.1'; // o 'localhost'
 $db['default']['username'] = 'root'; // usuario predeterminado de XAMPP
 $db['default']['password'] = '';
 $db['default']['database'] = 'wakeupict_live_stock';
