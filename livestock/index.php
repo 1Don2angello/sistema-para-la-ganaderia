@@ -1,9 +1,10 @@
 <?php
-/* hola que hace */
+/* hola que hace }nada*/
 /*
  *---------------------------------------------------------------
  * APPLICATION ENVIRONMENT
- *---------------------------------------------------------------
+ *--------------------------
+ -------------------------------------
  *
  * You can load different configurations depending on your
  * current environment. Setting the environment also influences
