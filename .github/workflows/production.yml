@@ -1,0 +1,17 @@
+name: Production Deployment
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+      - name: Deploy to Production
+        run: echo "Despliegue exitoso en Producción"
+      - name: Set Monitoring Metrics
+        run: echo "Configurando métricas de monitoreo..."

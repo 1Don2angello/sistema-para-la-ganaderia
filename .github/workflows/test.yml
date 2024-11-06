@@ -1,0 +1,15 @@
+name: Testing Pipeline
+
+on:
+  push:
+    branches:
+      - test
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+      - name: Run Tests
+        run: echo "Ejecutando pruebas de regresión y rendimiento..."

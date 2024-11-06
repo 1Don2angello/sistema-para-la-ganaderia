@@ -1,0 +1,17 @@
+name: Preproduction Pipeline
+
+on:
+  push:
+    branches:
+      - preproduction
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+      - name: Setup Environment
+        run: echo "Setting up environment..."
+      - name: Print Hello World
+        run: echo "Hola, Mundo en Preproducción"
